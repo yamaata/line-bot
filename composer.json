@@ -1,0 +1,14 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Library\\Helper\\" : "application/library/helper/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.5.*"
+  },
+  "require": {
+    "pear/http_request2": "v2.3.0",
+    "linecorp/line-bot-sdk": "1.4.0"
+  }
+}

@@ -1,0 +1,9 @@
+version: '2'
+services:
+  web:
+    build: ./docker/web
+    container_name: 'line-bot'
+    volumes:
+     - ./:/var/www/html
+    ports:
+     - '443:443'
