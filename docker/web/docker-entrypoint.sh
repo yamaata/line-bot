@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Apache
-echo "ServerName $HOSTNAME" >> /etc/httpd/conf/httpd.conf
+echo -e "\nServerName $HOSTNAME" >> /etc/apache2/apache2.conf
 
 # Composer
 cd /var/www/html
